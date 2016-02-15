@@ -14,5 +14,8 @@ author: "Jessica Brawner"
 
 #Link: [google], [anotherGoogle]
 
+#Downloads: [click here]({{ site.url }}/assets/mydoc.pdf)
+
 [google]: http://www.google.com
 [anotherGoogle]: http://www.google.com/about/careers/
+
