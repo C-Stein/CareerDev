@@ -1,6 +1,6 @@
 ---
 layout: job-page
-title: Job Postings
+title: Career Development Job Postings
 permalink: /job-postings/
 ---
 
