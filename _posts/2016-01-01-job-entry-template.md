@@ -11,11 +11,17 @@ author: "Jessica Brawner"
 
 #How to Apply:
 
-#Notes:
+#Notes: 
+
+#Company website:
 
 #Link: [google], [anotherGoogle]
 
-#Downloads: [click here]({{ site.url }}/assets/mydoc.pdf)
+#Downloads/Attachments: [click here]({{ site.url }}/assets/mydoc.pdf)
+
+#Employer Partner, location, company  type: 
+
+#Enviroment/culture:
 
 [google]: http://www.google.com
 [anotherGoogle]: http://www.google.com/about/careers/
