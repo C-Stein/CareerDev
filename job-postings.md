@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Job Postings
+layout: job-page
+title: Career Development Job Postings
 permalink: /job-postings/
 ---
 
@@ -17,6 +17,7 @@ permalink: /job-postings/
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
+          {{ post.excerpt }}
         </li>
       {% endif %}
     {% endfor %}
