@@ -19,3 +19,12 @@ OAuth.popup('github')
 });
   
 console.log("still running js");
+
+OAuth.popup('github').done(function(github) {
+    github.me().done(function(me) {
+        console.log('Your name is ' + me.name)
+    })
+}).fail(function (err) {
+    //handle error with err
+    console.log("error the other one!", err);
+});
