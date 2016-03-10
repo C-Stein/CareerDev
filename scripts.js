@@ -3,7 +3,7 @@ console.log("javascript is present!");
 OAuth.initialize('Jm26g27oCrprH3FOLnc8GRyi4gs');
 
 document.getElementById('button').addEventListener("click", function() {
-    OAuth.popup('google')
+    OAuth.popup('github')
       .done(function(result) {
             console.log("it worked");
            result.get('/me')
